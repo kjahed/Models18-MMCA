@@ -36,4 +36,4 @@ We will use MQTT to connect the models to the Internet-of-Things. For that, you'
 ### Node-RED
 We will Node-RED to integrate Papyrus-RT models with cloud services and APIs. IBM Bluemix offers a (limited) Node-RED instance for free. Register for an IBM Cloud account [here](https://console.bluemix.net/registration/). We will show how to setup the Node-RED instance during the tutorial.
 
-## That's it! You're ready.
+# That's it! You're ready.
