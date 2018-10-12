@@ -1,4 +1,4 @@
-## [Models'18] Making Modeling Cool Again!
+## Making Modeling Cool Again!
 
 This repository contains all the tools and files needed to get your hands dirty at the Making Modeling Cool Again tutorial. The tutorial will cover the use of **Papyrus-RT** to 
 - Connect and manipulate 3D simulations built using the Unity3D game engine.
