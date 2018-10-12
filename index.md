@@ -17,18 +17,18 @@ This repository contains all the tools and files needed to get your hands dirty 
   
 ### Download Papyrus-RT
 The tutorial will use a special build of Papyrus-RT. Download and extract the appropriate version for your system:
-- For Windows: https://github.com/kjahed/Models18-MMCA/releases/download/1.0/papyrusrt-windows.zip
-- For macOS: https://github.com/kjahed/Models18-MMCA/releases/download/1.0/papyrusrt-macos.zip
-- For Linux: https://github.com/kjahed/Models18-MMCA/releases/download/1.0/papyrusrt-linux.zip
+- [Windows](https://github.com/kjahed/Models18-MMCA/releases/download/1.0/papyrusrt-windows.zip)
+- [macOS](https://github.com/kjahed/Models18-MMCA/releases/download/1.0/papyrusrt-macos.zip)
+- [Linux](https://github.com/kjahed/Models18-MMCA/releases/download/1.0/papyrusrt-linux.zip)
 
 ### Grab the Simulation
 The pre-build Unity-3D simulation for the Safe model that will be used throughout the tutorial can be downloaded from here:
-- For Windows: https://github.com/kjahed/Models18-MMCA/releases/download/1.0/safesim-windows.zip
-- For macOS: https://github.com/kjahed/Models18-MMCA/releases/download/1.0/safesim-macos.zip
-- For Linux: https://github.com/kjahed/Models18-MMCA/releases/download/1.0/safesim-linux.zip
+- [Windows](https://github.com/kjahed/Models18-MMCA/releases/download/1.0/safesim-windows.zip)
+- [macOS](https://github.com/kjahed/Models18-MMCA/releases/download/1.0/safesim-macos.zip)
+- [Linux](https://github.com/kjahed/Models18-MMCA/releases/download/1.0/safesim-linux.zip)
 
 ### Grab the examples
-Download the zip file from here https://github.com/kjahed/Models18-MMCA/releases/download/1.0/examples.zip
+Download the zip file from [here](https://github.com/kjahed/Models18-MMCA/releases/download/1.0/examples.zip)
 
 ### CloudMQTT
 We will use MQTT to connect the models to the Internet-of-Things. For that, you'll need to run an MQTT broker. [CloudMQTT](https://www.cloudmqtt.com) offers a hosted MQTT broker for free. Register for an account [here](https://customer.cloudmqtt.com/instance/create?plan=cat)
