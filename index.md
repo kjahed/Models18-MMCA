@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## [Models'18] Making Modeling Cool Again!
 
-You can use the [editor on GitHub](https://github.com/kjahed/Models18-MMCA/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This repository contains all the tools and files needed to get your hands dirty at the Making Modeling Cool Again tutorial.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The tutorial will cover the use of *Papyrus-RT* to 
+- Connect and manipualte 3D simulations built using the Unity3D game engine.
+- Integrate Papyrus-RT models with the Internet-of-Things using the *MQTT* protocol
+- Augmenting Papryus-RT models with complex cloud services using MQTT and *Node-RED*
 
-### Markdown
+### Prerequisite 
+- Papryus-RT requires [Java 8 (64-bit)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) to operate correctly. It will not work with newer versions of Java.
+- Building the generated code requires ```g++``` and ```make```:
+  - On Windows, install Cygwin with the ```gcc-g++``` and ```make``` packages.
+  - On macOS, install Xcode Command Line Tools using the command:
+    ```
+    xcode-select --install
+    ```
+  - On Linux, you probably know what you need to do
+  
+### Download Papyrus-RT
+The tutorial will use a special build of Papyrus-RT. Download and extract the appropriate version for your system:
+- For Windows: https://github.com/kjahed/Models18-MMCA/releases/download/1.0/papyrusrt-windows.zip
+- For macOS: https://github.com/kjahed/Models18-MMCA/releases/download/1.0/papyrusrt-macos.zip
+- For Linux: https://github.com/kjahed/Models18-MMCA/releases/download/1.0/papyrusrt-linux.zip
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Grab the Simulation
+The pre-build Unity-3D simulation for the Safe model that will be used throughout the tutorial can be downloaded from here:
+- For Windows: https://github.com/kjahed/Models18-MMCA/releases/download/1.0/safesim-windows.zip
+- For macOS: https://github.com/kjahed/Models18-MMCA/releases/download/1.0/safesim-macos.zip
+- For Linux: https://github.com/kjahed/Models18-MMCA/releases/download/1.0/safesim-linux.zip
 
-```markdown
-Syntax highlighted code block
+### Grab the examples
+Download the zip file from here https://github.com/kjahed/Models18-MMCA/releases/download/1.0/examples.zip
 
-# Header 1
-## Header 2
-### Header 3
+### CloudMQTT
+We will use MQTT to connect the models to the Internet-of-Things. For that, you'll need to run an MQTT broker. [CloudMQTT](https://www.cloudmqtt.com) offers a hosted MQTT broker for free. Register for an account [here](https://customer.cloudmqtt.com/instance/create?plan=cat)
 
-- Bulleted
-- List
+### Node-RED
+We will Node-RED to integrate Papyrus-RT models with cloud services and APIs. IBM Bluemix offers a (limited) Node-RED instance for free. Register for an IBM Cloud account [here](https://console.bluemix.net/registration/). We will show how to setup the Node-RED instance during the tutorial.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kjahed/Models18-MMCA/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## That's it! Your're ready.
