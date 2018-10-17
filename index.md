@@ -1,4 +1,6 @@
 ## Making Modeling Cool Again!
+### [Update] Thank you everyone for a great tutorial! The slides are now available [here](https://github.com/kjahed/Models18-MMCA/releases/download/1.0/slides.zip).
+---
 
 This repository contains all the tools and files needed to get your hands dirty at the Making Modeling Cool Again tutorial. The tutorial will cover the use of **Papyrus-RT** to 
 - Connect and manipulate 3D simulations built using the Unity3D game engine.
