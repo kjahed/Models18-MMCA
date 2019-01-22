@@ -28,7 +28,7 @@ Java is typically installed to ```C:\Program Files\Java```. If you have multiple
 Find the ```papyrusrt.ini``` file. On Linux and Windows, the file can be found whithin the main Papyrus-RT directory. On macOS, right click on Papyrus-RT then choose "Show Contents". Navigate to ```Contents/Eclipse```.
 
 ### Step 3
-Edit the ```papyrusrt.ini``` file and append the following to the end. Replace ```<java_8_path>``` with the path you obtained in [Step 1](step-1).
+Edit the ```papyrusrt.ini``` file and append the following to the end. Replace ```<java_8_path>``` with the path you obtained in [Step 1](#step-1).
 ```
 -vm <java_8_path>
 ```
