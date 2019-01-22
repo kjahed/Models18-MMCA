@@ -25,7 +25,7 @@ Find the one that contains ```8``` or ```1.8```. The full path will then look li
 Java is typically installed to ```C:\Program Files\Java```. If you have multiple versions of Java installed, you will have multiple folders whithin that directory. Find the folder that contains ```1.8``` in its name, e.g. ```jdk1.8.0_191```. The full path will then look like ```C:\Program Files\Java\jdk1.8.0_191\bin```
 
 ## Step 2
-Find the ```papyrusrt.ini``` file. On Linux and Windows, the file can be found whithin the main Papyrus-RT directory. On macOS, right click on Papyrus-RT then choose "Show Package Contents". Navigate to ```Contents/Eclipse```.
+Find the ```papyrusrt.ini``` file. On Linux and Windows, the file can be found whithin the main Papyrus-RT directory. On macOS, right click on Papyrus-RT and choose "Show Package Contents" then navigate to ```Contents/Eclipse```.
 
 ## Step 3
 Edit the ```papyrusrt.ini``` file and append the following to the end. Replace ```<java_8_path>``` with the path you obtained in [Step 1](#step-1).
