@@ -10,6 +10,7 @@ This repository contains all the tools and files needed to get your hands dirty 
 
 ### Prerequisite 
 - Papyrus-RT requires [Java 8 (64-bit)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) to operate correctly. It will not work with newer versions of Java.
+  - After installing Java 8, if you happen to have another version of Java, Papyrus-RT might pickup the wrong one. If Papyrus-RT crashes upon startup, [update the ini file](java8.md)
 - Building the generated code requires ```g++``` and ```make```:
   - On Windows, install [Cygwin](https://www.cygwin.com/) with the ```gcc-g++```, ```make```, and ```cmake``` packages.
   - On macOS, install the Xcode Command Line Tools using the command ```xcode-select --install```
